@@ -127,7 +127,7 @@ class PlayState extends MusicBeatState
 				];
 		}
 
-		if (SONG.song.toLowerCase() == 'epic'|| SONG.song.toLowerCase() == 'energizer' || SONG.song.toLowerCase() == 'summersunset')
+		if (SONG.song.toLowerCase() == 'epic'|| SONG.song.toLowerCase() == 'energizer' || SONG.song.toLowerCase() == 'summer')
 		{
 			var city:FlxSprite = new FlxSprite(-700, -345).loadGraphic(AssetPaths.city_bg__png);
 			// bg.setGraphicSize(Std.int(bg.width * 2.5));
