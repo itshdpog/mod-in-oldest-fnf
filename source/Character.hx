@@ -82,11 +82,11 @@ class Character extends FlxSprite
 					animation.addByPrefix('singLEFT', 'Poyo Left', 24);
 					playAnim('idle');
 	
-					addOffset("idle", 0, -20);
-					addOffset("singUP", 13, -19);
-					addOffset("singRIGHT", -3, -18);
-					addOffset("singLEFT", -1, -22);
-					addOffset("singDOWN", 0, -20);
+					addOffset("idle", 0, -150);
+					addOffset("singUP", 13, -150);
+					addOffset("singRIGHT", -3, -150);
+					addOffset("singLEFT", -1, -150);
+					addOffset("singDOWN", 0, -150);
 
 			case 'spooky':
 				tex = FlxAtlasFrames.fromSparrow(AssetPaths.spooky_kids_assets__png, AssetPaths.spooky_kids_assets__xml);
